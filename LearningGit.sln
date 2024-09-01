@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35201.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningGit", "LearningGit\LearningGit.csproj", "{223CF0DC-9ECA-40B7-91EE-8AD625FF167C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{223CF0DC-9ECA-40B7-91EE-8AD625FF167C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{223CF0DC-9ECA-40B7-91EE-8AD625FF167C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{223CF0DC-9ECA-40B7-91EE-8AD625FF167C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{223CF0DC-9ECA-40B7-91EE-8AD625FF167C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C172CB35-F135-496F-AAA3-0438D7D9257C}
+	EndGlobalSection
+EndGlobal
