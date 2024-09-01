@@ -32,6 +32,22 @@ namespace LearningGit.Controllers
         {
             return View(recipes);
         }
+        public IActionResult Create()
+        {
+            return View();
+        }
+        [HttpPost]
+        public ActionResult Create(Recipes newRecipe)
+        {
+            // יצירת מזהה חדש למתכון
+            newRecipe.Id = recipes.Count + 1;
+
+            // הוספת המתכון החדש לרשימה
+            recipes.Add(newRecipe);
+
+            // ניתוב מחדש לעמוד הראשי כדי להציג את כל המתכונים
+            return RedirectToAction("Index");
+        }
 
     }
 }
